@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local plr = game.Players.LocalPlayer
-local M4 = plr,Backpack:WaitForChild("M4")
+local M4 = plr.Backpack:WaitForChild("M4")
 
 local Window = Rayfield:CreateWindow({
    Name = "AimBotArena",
